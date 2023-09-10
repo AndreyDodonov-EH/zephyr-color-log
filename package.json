@@ -3,6 +3,9 @@
   "displayName": "Zephyr Color Log",
   "description": "Syntax highlighting for logs with inf, warn and err, e.g. from Zephyr OS",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreyDodonov-EH/zephyr-color-log"},
   "engines": {
     "vscode": "^1.70.0"
   },
