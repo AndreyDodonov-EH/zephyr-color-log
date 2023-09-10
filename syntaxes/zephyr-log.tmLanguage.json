@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "zephyr-log",
+	"patterns": [
+		{
+			"include": "#warning"
+		},
+		{
+			"include": "#error"
+		}
+	],
+	"repository": {
+		"warning": {
+			"name": "token.warn-token",
+			"begin": "<wrn>",
+			"end": "\\n"	
+		},
+		"error": {
+			"name": "token.error-token",
+			"begin": "<err>",
+			"end": "\\n"	
+		}
+	},
+	"scopeName": "source.zephyr"
+}

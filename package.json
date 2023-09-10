@@ -1,0 +1,25 @@
+{
+  "name": "zephyr-color-log",
+  "displayName": "Zephyr Color Log",
+  "description": "Syntax highlighting for logs with inf, warn and err, e.g. from Zephyr OS",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "zephyr-log",
+      "aliases": ["zephyr-log", "zephyr-log"],
+      "extensions": [".txt",".log"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "zephyr-log",
+      "scopeName": "source.zephyr",
+      "path": "./syntaxes/zephyr-log.tmLanguage.json"
+    }]
+  }
+}

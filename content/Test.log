@@ -1,0 +1,6 @@
+[00:03:00.929,809] <err> sl_wfx_host: Connection failed, access point not found
+[00:03:00.929,870] <err> wifi: Failed connecting to SSID_robot (18 attempts remaining)
+[00:03:00.929,931] <inf> led_handler: LED_BLINK->LED_OFF
+[00:03:02.517,578] <wrn> date_time: getaddrinfo, error: -11
+[00:03:02.517,669] <wrn> date_time: getaddrinfo, error: -11
+[00:03:02.517,700] <wrn> date_time: Did not get time from any NTP server
