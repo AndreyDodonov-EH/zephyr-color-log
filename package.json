@@ -2,7 +2,8 @@
   "name": "zephyr-color-log",
   "displayName": "Zephyr Color Log",
   "icon": "content/appicon.png",
-  "description": "Syntax highlighting for logs with inf, warn and err, e.g. from Zephyr OS",
+  "license": "MIT",
+  "description": "Syntax highlighting for logs with warn and err, e.g. from Zephyr OS",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -10,6 +11,7 @@
   "engines": {
     "vscode": "^1.70.0"
   },
+  "publisher": "dodonew",
   "categories": [
     "Programming Languages"
   ],
