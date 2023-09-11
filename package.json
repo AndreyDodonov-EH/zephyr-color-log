@@ -1,6 +1,7 @@
 {
   "name": "zephyr-color-log",
   "displayName": "Zephyr Color Log",
+  "icon": "content/appicon.png",
   "description": "Syntax highlighting for logs with inf, warn and err, e.g. from Zephyr OS",
   "version": "1.0.0",
   "repository": {
